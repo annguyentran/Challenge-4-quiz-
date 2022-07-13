@@ -1,0 +1,78 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+    border: 1px solid red;
+}
+
+
+/*--------Main Div section ---------*/
+
+/*--------Outer Div ---------*/
+
+.outer-div {
+
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+
+/*--------Top section---------*/
+.scores p {
+float: right;
+}
+
+/*--------Inner Div---------*/
+
+.inner-div {
+    height: 100vh;
+    background-color: aqua;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner-div button {
+display: block;
+
+
+}
+
+
+/*--------Inner Div (Quiz header)---------*/
+
+.quiz-intro {
+margin-bottom: 25vh;
+display: contents;
+
+}
+
+#start-btn {
+align-self: center;
+
+}
+/*--------Main Quiz content---------*/
+
+.question-section {
+
+    display: none;
+}
+
+
+.finish-screen{
+display: none;
+
+}
+
+
+
+

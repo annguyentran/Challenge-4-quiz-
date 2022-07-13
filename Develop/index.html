@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <!--Main div section-->
+  <div class = "outer-div">
+       
+
+    <!-- top bar section-->
+          <div class="scores">
+            <a href="highscores.html">View Highscores</a>
+            <p id=countdown>Timer:00:00</p>
+        </div>
+
+    <!--inner div-->
+    <div class = "inner-div">
+ 
+      <!--Header quiz -->
+      <header class = "quiz-intro" Id = "introduction">
+        <h1>Website Development Quiz</h1>
+        <p>This is a timed quiz, so whenever you are ready, please hit the start button. There will be 
+          4 multiple choice answers for each question.
+        </p>
+        <button id="start-btn">Start</button>
+
+      </header> 
+
+
+      <!--Main quiz content -->
+      <main>
+
+        <section class = "question-section" id="Question">
+          <H1 id = questionHeader>Question</H1>
+          <ul id = answer-btn>
+            <button class = btn>Answer 1</button>
+            <button class = btn>Answer 2</button>
+            <button class = btn>Answer 3</button>
+            <button class = btn>Answer 4</button>
+          </ul>
+        </section>
+
+        <section class = "finish-screen">
+          <h1>Quiz Finished</h1>
+          <p> Score Results: 0</p>
+          <div>
+            <label for="">Enter initials
+              <input type="text">
+              <button>Submit</button>
+            </label>
+          </div>
+
+
+        </section>
+
+      </main>
+
+    </div>
+
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/logic.js"></script>
+  </div>
+  </body>
+</html>
