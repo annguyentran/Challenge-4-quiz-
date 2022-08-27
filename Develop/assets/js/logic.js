@@ -24,9 +24,9 @@ const startButton = document.getElementById('start-btn')
 const questionBox = document.getElementById('Question')
 const quizIntroduction = document.getElementById('introduction')
 
-let shuffleQuestions, currentQuestionIndex 
 const questionElement = document.getElementById('questionHeader')
 const answerElementButtons = document.getElementById('answer-btn')
+let shuffleQuestions, currentQuestionIndex 
 
 startButton.addEventListener('click',startGame)
 
@@ -47,8 +47,8 @@ function nextQuestion(){
 
 }
 
-function showQuestion(questionA) {
-questionElement.innertext = questionA.question1
+function showQuestion(question) {
+questionElement.innertext = question.question
 
 
 }

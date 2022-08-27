@@ -5,7 +5,7 @@
 const questionA = [
 
     {
-      question1: 'What does HTML stand for?',
+      question: 'What does HTML stand for?',
       answers:[
       {text:'HyperText Markup Language', correct:true},
       {text:'HyperText Making Language', correct:false},
